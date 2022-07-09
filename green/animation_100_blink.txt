@@ -1,0 +1,16 @@
+// textureid,typeid,x,y,frametime(ms)
+// type 0-normal 1-overdraw
+
+basetexture,100
+interval,3000
+
+set0.frame0,101,1,90,70,200
+set0.frame1,-1,1,-1,-1,0
+
+set1.frame0,101,1,90,70,400
+set1.frame1,-1,1,-1,-1,0
+
+set2.frame0,101,1,90,70,400
+set2.frame1, -1,1, -1, -1,200
+set2.frame2,101,1,90,70,600
+set2.frame3, -1,1, -1, -1,0

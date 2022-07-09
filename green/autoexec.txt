@@ -1,0 +1,32 @@
+sv_textureauthor "2004 êÖã˚"
+
+loadtexture 100 resource\texture\green\100.png
+loadtexture 101 resource\texture\green\100_blink_0.png
+loadtexture 110 resource\texture\green\110.png
+loadtexture 120 resource\texture\green\120.png
+loadtexture 121 resource\texture\green\120_blink_0.png
+loadtexture 130 resource\texture\green\130.png
+loadtexture 131 resource\texture\green\130_blink_0.png
+loadtexture 132 resource\texture\green\100_blink_0.png
+
+loadtexture 200 resource\texture\green\200.png
+loadtexture 201 resource\texture\green\200_blink_0.png
+loadtexture 202 resource\texture\green\200_blink_1.png
+
+registertexturealias 0 0 normal 100
+registertexturealias 0 0 smile 110
+registertexturealias 0 0 angry 120
+registertexturealias 0 0 surprised 130
+registertexturealias 0 1 normal 200
+
+registerguioffset emotion 100 25 10
+registerguioffset emotion 200 10 38
+
+settexture 0 0 normal
+settexture 0 1 normal
+
+registeranimation 0 resource\texture\green\animation_100_blink.txt
+registeranimation 1 resource\texture\green\animation_120_blink.txt
+registeranimation 2 resource\texture\green\animation_130_blink.txt
+registeranimation 3 resource\texture\green\animation_200_blink.txt
+
